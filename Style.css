@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ------ Navigation------- */
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-brand img {
+  height: 90px;
+  padding-left: 30px;
+}
+
+.navbar-nav li {
+  padding: 0 30px;
+}
+
+.navbar-nav li a {
+  float: right;
+  text-align: left;
+}
+
+#nav-bar ul li a:hover {
+  color: #fff !important;
+}
+
+.navbar {
+  background-color: #41301d;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+.nav-link {
+  color: #fbd13d !important;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+/* -------Slider - Carousel -----*/
+
+#carousel {
+  width: 100%;
+  /* display: block; */
+  /* margin: auto; */
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial !important;
+}
+
+.carousel-caption h5 {
+  color: #fbd13d !important;
+  font-weight: lighter;
+  font-size: 2.5rem;
+  background-color: #41301d;
+  opacity: 0.7;
+}
+
+/* -------About ------ */
+
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+
+#about h1 {
+  color: #fbd13d !important;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  
+}
+
+#about .btn {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: #41301d;
+  border-color: #41301d;
+  transition: 0.5;
+}
+
+#about .btn:hover {
+  box-shadow: 0 2px 5px #41301d;
+  background-color: #6F422B;
+  border-color: #6F422B;
+}
+
+
+.about-content {
+  margin-top: 20px;
+  color:#272A15;
+  font-size: 16px;
+ line-height: 1.6;
+ font-weight: 300;
+ 
+}
+
+.skills-bar {
+  margin-bottom: 6px;
+  margin-top: 45px;
+  font-weight: lighter;
+  color:#272A15
+
+}
+
+.skills-bar p{
+    color:#272A15;
+    
+ 
+}
+
+.progress-bar {
+  border-radius: 16px;
+  
+}
+
+.progress {
+  border-radius: 16px !important;
+  margin-bottom: 22px;
+}
+
+
+/* ------Services------ */
+
+#services {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0.8)
+    ),
+    url("./Images/banner_11.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fbd13d !important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#services h1 {
+  text-align: center;
+  color: #fbd13d !important;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  line-height: 1.2;
+}
+
+#services h1::after {
+  content: "";
+  background-color: #fbd13d;
+  display: block;
+  height: 1px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+.services{
+    margin-top: 40px;
+}
+
+.icon{
+    font-size: 2.5rem;
+    margin: 20px auto; 
+    padding:20px;
+    height: 80px;
+    width: 80px;
+    border: 0.5px solid #fbd13d;
+    border-radius: 50%;
+}
+
+.services h2{
+
+        
+        color: #fbd13d !important;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        font-weight: lighter;
+        line-height: 1.2;
+}
+
+.services p{
+font-size: 14px;
+margin-top: 20px;
+color:#CCC8BE;
+}
+
+ .services .col-md-3:hover{
+
+    background: #41301D;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+/*  --------About Us-------- */
+
+
+/* ----------Tariffs------- */
+
+#tariffs{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0.8)
+  ),
+  url("./Images/tariffs.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fbd13d!important;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 100px;
+  /* font-family: sans-serif; */
+  font-size: 1.5rem;
+}
+
+
+#tariffs h1 {
+  text-align: center;
+  color: #fbd13d !important;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  line-height: 1.2;
+}
+
+#tariffs p{
+  font-size: 14px;
+  margin-top: 20px;
+  color:#CCC8BE;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  }
+
+#tariffs h1::after {
+  content: "";
+  background-color: #fbd13d;
+  display: block;
+  height: 1px;
+  width: 275px;
+  margin: 20px auto 5px;
+}
+
+
+#tariffs .btn-primary{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #41301d!important;
+  border-color: #41301d!important;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  line-height: 1.2;
+  transition: 0.5;
+}
+
+
+#tariffs .btn-primary:hover{
+  border-color:#B12003!important;
+  background-color: #C22303!important;
+  text-decoration: underline;
+  box-shadow: 0 2px 20px #71736D;
+  
+}
+
+/*  ---------Price Plan-------- */
+
+#price {
+  padding: 40px 0;
+  background:#FEF7EC;
+  
+}
+
+#price h1 {
+  text-align: center;
+  color: #41301D !important;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  line-height: 1.2;
+}
+
+#price h1::after {
+  content: "";
+  background-color: #fbd13d;
+  display: block;
+  height: 1px;
+  width: 215px;
+  margin: 20px auto 5px;
+}
+
+.single-price {
+  margin: 10px auto;
+  display: block;
+  float:left;
+  width: 100%;
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.single-price:hover{ 
+  box-shadow: 0 2px 20px #333;
+
+}
+
+.price-head{
+  background:#41301D;
+  padding: 10px 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.price-head h2{
+  color: #fbd13d;
+  padding: 5px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: lighter;
+
+}
+
+.price-head p{
+  color:#CCC8BE;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: lighter;
+
+}
+
+#price span {
+  font-size: 16px;
+}
+
+.price-content {
+  display:block;
+  float: left;
+  width: 100%;
+  padding: 0 15px;
+
+}
+
+.price-content ul li {
+  border-bottom: 1px solid #efefef;
+  padding: 10px 15px;
+  list-style: none;
+}
+
+.price-content ul li:last-child {
+  border-bottom: none;
+}
+
+.fa-check{
+  color: #fbd13d;
+  margin: 10px;
+  size: 16px;
+}
+
+.fa-times{
+  color: #41301d;
+  margin: 10px;
+  size: 20px;
+}
+
+.price-button{
+  display:block;
+  float: left;
+  padding: 15px 15px 30px;
+  text-align: center;
+  width: 100%;
+  
+}
+
+.book-btn{
+  /* background-color: #721121; */
+  background-color: #B03B3F;
+  border-radius: 3px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-weight: lighter;
+  padding: 15px 50px;
+  transition: 0.5s;
+  color: #efefef;
+  
+}
+
+.book-btn:hover{
+  border-color:#B12003;
+  /* background-color: #98515D; */
+  /* background-color: #ABB393; */
+  /* background-color: #F9BF68; */
+  /* background-color: #CD4B30; */
+  background-color: #C22303;
+  color:#efefef;
+  text-decoration: underline;
+  
+}
